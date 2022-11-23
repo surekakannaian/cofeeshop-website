@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    
+    scroll-padding-top: 5.5rem;
+     overflow-x: hidden;
+ }
+ 
+header{
+    height: 15vh;
+    background-color:white;
+    box-shadow: 0 0 4px 0 rgb(153, 169, 177);
+    position: sticky;
+    top: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+height: 13vh;
+border-radius:17px ;
+margin-top: 5px;
+margin-left: 50px;
+
+}
+.nav-links{
+    margin-top: 5vh;
+    width: 50%;
+    display: flex;
+}
+.nav-links li{
+    margin-left: 40px;
+    list-style: none;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: overline;
+    color: rgb(180, 70, 70);
+}
+.home1{
+    height: 88vh;
+    background-image: url("images/home.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.description {
+    width: 50%;
+    color: white;
+   padding-top: 15vh;
+   margin-left: 600px;
+}
+.description h1{
+
+    margin-left: 190px;
+    font-size: 55px;
+    
+}
+.description p{
+   font-size: 20px;
+  margin-top: 50px;
+
+   
+}
+.description p .text{
+    
+    margin-left: 130px;
+}
+.description button{
+    margin-left: 300px;
+    margin-top: 50px;
+    padding: 16px 16px;
+    border-radius: 10px;
+    border:none;
+    background-color: rgb(19, 17, 17);
+    color: aliceblue;
+}
+.about{
+    height: 100vh ;
+    display: flex;
+    justify-content: space-between;
+}
+.about img{
+    height: 70vh;
+    margin-left: 40px;
+    margin-top: 110px;
+   border-radius: 28px;
+}
+.about .right{
+    width: 50%;
+}
+.about h1{
+    font-size: 45px;
+    margin-top: 120px;
+    margin-left: 50px;
+}
+.about p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.about button{
+    padding: 15px 25px;
+    margin-top: 25px;
+    margin-left: 220px;
+    background-color: rgb(209, 111, 111);
+}
+.facility{
+    height: 90vh;
+}
+ .facility .end {
+    margin-left: 450px;
+}
+.facility .end img{
+    height: 100px;
+    margin-left: 100px;
+}
+.facility .end h1{
+    font-size: 45px;
+    margin-left:110px ;
+}
+.fac-card{
+    display: flex;
+}
+.fac-card1{
+    height: 40vh;
+    width: 300px;
+    margin-left: 40px;
+    margin-top: 70px;
+}
+.fac-card1 img{
+    border-radius: 12px;
+}
+.fac-card1 h1{
+    margin-top: 18px;
+    
+}
+.menu1{
+    height: 130vh;
+}
+.menu1 .end img{
+   height: 100px;
+   margin-left: 530px;
+   margin-top: 10px;
+}
+.menu1 .end h1{
+    font-size: 45px;
+    margin-left:525px ;
+    margin-top: 10px;
+}
+.menu-r1{
+    margin-top: 30px;
+  display: flex; 
+  justify-content: space-between; 
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.menu-r2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 20px;
+}
+.menu1 .r1-card img{
+    height: 200px;
+    width: 250px;
+}
+.menu1 .r1-card h1{
+text-align: center;
+}
+.gallery{
+    height: 120vh;
+}
+
+.gallery .end img{
+    height: 100px;
+    margin-left: 530px;
+    margin-top: 10px;
+ }
+ .gallery .end h1{
+     font-size: 45px;
+     margin-left:550px ;
+     margin-top: 10px;
+ }
+ .gallery .first-row
+ {
+    display: flex;
+    justify-content: space-between;
+margin-top: 50px;
+margin-left: 200px;
+margin-right: 200px;
+ }
+ .gallery .second-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 200px;
+margin-right: 200px;
+ }
+ .gallery .first-row img{
+    height: 200px;
+    width: 300px;
+ }
+ .gallery .second-row img{
+    height: 200px;
+    width: 300px;
+ }
+ .team{
+    height: 140vh;
+ }
+ .team .end1 img{
+    height: 100px;
+    margin-left: 530px;
+    margin-top: 10px;
+ }
+ .team .end1 h1{
+     font-size: 45px;
+     margin-left:570px ;
+     margin-top: 10px;
+ }
+.team .menu-r1{
+     margin-top: 35px;
+   display: flex; 
+   justify-content: space-between; 
+   margin-left: 250px;
+   margin-right: 250px;
+ }
+.team .menu-r2{
+     display: flex;
+     justify-content: space-between;
+     margin-left: 250px;
+     margin-right: 250px;
+     margin-top: 20px;
+ }
+ .team .r1-card img{
+     height: 250px;
+     width: 250px;
+ }
+ .team .r1-card h1{
+ text-align: center;
+}
+.contact1{
+    height: 120vh;
+}
+ .contact1 .end2 img{
+    height: 100px;
+    margin-left: 530px;
+    margin-top: 10px;
+ }
+ .contact1 .end2 h1{
+     font-size: 45px;
+     margin-left:590px ;
+     margin-top: 10px;
+ }
+ .divide{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+ }
+ .divide img{
+    height: 500px;
+ }
+ .form1{
+    border: 2px solid black;
+    width: 35%;
+    text-align: center;
+    height: 50vh;
+    margin-right: 90px;
+    margin-top: 50px;
+ }
+ .form1 h1{
+    margin-top: 30px;
+ }
+ form input{
+    padding: 10px 35px;
+    border: 2px solid black;
+ }
+ form button{
+    border: none;
+    padding: 8px 30px;
+    background-color: rgb(218, 83, 83);
+ }
+ .contact-icon{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 130px;
+    margin-right: 130px;
+    height: 25vh;
+    color: rgb(70, 15, 15);
+ }
+ .shop-info1{
+    
+    height: 20vh;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+ .shop-info1 i{
+  margin-left: 60px;
+ font-size: 30px;
+}
+.shop-info1 h2{
+    margin-left: 30px;
+}
+.shop-info1 h4{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.shop-info2{
+    
+    height: 20vh;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+ .shop-info2 i{
+  margin-left: 55px;
+ font-size: 30px;
+}
+.shop-info2 h2{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.shop-info2 h4{
+    margin-left: 20px;
+}
+ hr{
+    border: 1px solid black;
+    width: 80%;
+    margin-left: 10%;
+ }
+ footer{
+    height: 10vh;
+    margin-left: 40%;
+    font-size: 15px;
+ }
+ 
